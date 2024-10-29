@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .walk{
+            height: 500px;
+            width: 500px;
+            background-image: url(./mansit-removebg-preview.png);
+            animation:movement 20s infinite;
+            border: none;
+            margin-right: 10px;
+            background-repeat:  no-repeat;
+            transition: 10s;
+            margin-top: 100px;
+            
+           
+
+        }
+        body{
+            background-image: url('./5e8pZUZ-spiderman-hd-wallpaper.jpg');
+            animation:bg 11s;
+        }
+
+        @keyframes movement{
+            30%{
+                transform: translateX(300px);
+                background-image: url('./first-removebg-preview.png');
+
+            }
+            50%{
+                transform: translateX(600px);
+                background-image: url('./man-removebg-preview.png');
+            }
+            70%{
+                transform: translateX(900px);
+                background-image: url('./spide-removebg-preview\ \(1\).png');
+
+            }
+            90%{
+                transform: translateX(600px);
+                background-image: url('./fly-removebg-preview.png');
+            }
+      
+    }
+    
+    
+   audio{
+    margin-top: 150px;
+   }
+   
+  
+    </style>
+</head>
+<body>
+    
+        
+    <div class="walk"></div>
+<audio  controls loop >
+    <source src="./WhatsApp Audio 2024-08-29 at 12.35.22_e1e52ae9.mp3" type="audio/mp3">
+</audio>
+
+    
+</body>
+</html>

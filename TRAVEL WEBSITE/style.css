@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+
+body{
+    position: relative;
+}
+.pos{
+  
+    position: absolute;
+    top:500px;
+     left: 25%;
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+}
+.one{
+    position: relative;
+    bottom: 200px;
+    background:white;
+    height: 500px;
+}
+.two{
+    position: relative;
+    bottom: 100px;
+    background:white;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+.footpanel1{
+    background-color: #37475a;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    color: white;
+}
+.footpanel2{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2832;
+    color: rgb(237, 231, 231);
+    padding: 20px;
+    font-size: 0.85rem;
+}
+.footpanel2 .lis{
+    margin-top: 50px;
+    
+}
+.lis ul{
+    list-style-type: none;
+    line-height: 30px;
+}
+.lis ul li:first-child{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: white;
+}
+.footpanel3{
+    height: 80px;
+    background-color: #1f2832;
+    border-top: .5px solid rgb(168, 167, 167);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.four{
+    height: 30px;
+    width: 150px;
+    border: .3px solid rgb(149, 146, 146);
+    margin-left: 30px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 5px;
+    font-size: .9rem;
+}
+.four i{
+    margin-right: 10px;
+}
+/* pannnel fourrrrrrrrrr */
+.footpanel4{
+    display: grid;
+    grid-template-columns: repeat(6,1fr)  ;
+    padding: 50px 200px;
+     background:#131a22;
+}
+.footpanel4 ul li{
+    font-size: .7rem;
+    color: rgb(215, 208, 208);
+  
+
+}
+.footpanel4 ul{
+    line-height: 20px;
+}
+.footpanel4 ul li:first-child{
+    font-size: 1rem;
+    margin: 0;
+}
+/* PANELLLLL FIVE */
+.footpanel5{
+    text-align: center;
+    background:#131a22;
+    color: white;
+    font-size: .8rem;
+    padding: 30px;
+}
+.footpanel5 ul li{
+    display: inline-block;
+    color: white;
+    margin-right: 10px;
+}
+.footpanel5 ul{
+  padding-bottom: 5px;
+}
+.overlay{
+    background-color: #0f1111;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 70px;
+    bottom: 0%;
+    opacity: 0.5;
+    z-index: 2;
+    display: none;
+    transition-delay: 2s;
+}
+.up{
+    position: relative;
+    bottom: 150px;
+    height: 160px;
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+
+}
+.ak{
+    border: .5px solid rgb(24, 24, 56);
+    
+
+}
+
